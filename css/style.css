@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit & display=swap');
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr; 
+    background-color: antiquewhite;
+}    
+
+aside {
+    padding: 2rem;
+    color: bisque;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: brown;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+
+}
+
+.all-rise{
+    color:blue;
+
+}
+
+.photo-rise{
+    max-width: 100%;
+
+}
+
+.info{
+    background-color: chocolate;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+     }
